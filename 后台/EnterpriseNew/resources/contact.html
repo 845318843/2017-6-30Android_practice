@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+<head>
+<title>联系我们</title>
+<meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- Form validation by http://www.TechiePark.com starts here-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/jquery.pngFix.js"></script> 
+<script type="text/javascript">
+$().ready(function() {
+	// validate the contact form when it is submitted
+	$("#contactForm").validate({
+
+		rules: {
+			name: "required",
+			email: {
+				required: true,
+				email: true
+			}
+		},
+		messages: {
+			name: "* Please enter your name",
+			email: "* Please enter a valid email address"
+		}
+	});
+});
+</script>
+
+<style type="text/css">
+#contactForm label.error {
+	padding-left:8px;
+	background-color:#ffffff;
+	width: auto;
+	display: inline;
+}
+</style>
+<!-- Form validation by http://www.TechiePark.com ends here-->
+
+<script type="text/javascript"> 
+    $(document).ready(function(){ 
+        $(document).pngFix(); 
+    }); 
+</script> 
+
+<!--[if lt IE 8.]>
+<link rel="stylesheet" type="text/css" href="css/style-ie.css" />
+<![endif]-->
+ <!--[if lt IE 7.]>
+<link rel="stylesheet" type="text/css" href="css/style-ie6.css" />
+<![endif]-->
+
+<!-- Content Slider -->
+<script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+<script type="text/javascript">
+		var flashvars = {};
+		flashvars.xml = "config.xml";
+		flashvars.font = "font.swf";
+		var attributes = {};
+		attributes.wmode = "transparent";
+		attributes.id = "slider";
+		swfobject.embedSWF("design3edge.swf", "content_slider", "575", "265", "9", "expressInstall.swf", flashvars, attributes);
+</script>
+
+<!-- Content Slider -->
+
+</head>
+
+<body>
+
+<!-- Main Body Starts Here -->
+<div id="main_body">
+
+<!-- Header Starts Here -->
+<div id="header">
+
+<!-- Header Top -->
+<div id="header_top">
+</div>
+<!-- Header Top -->
+
+<!-- Header Body Starts Here -->
+<div id="header_body">
+
+<!-- Header Left Part Starts Here -->
+<div id="header_left">
+<!-- Logo Starts Here-->
+<div id="logo">
+<a href="index.html"><img src="images/main_logo.png" alt="Visit Design3Edge" /></a>
+</div>
+<!-- Logo Ends Here -->
+
+<!-- Divider Starts Here -->
+<div id="logo_divider">
+<img src="images/logo_divider.png" alt="Design3Edge" />
+</div>
+<!-- Divider Ends Here -->
+
+<!-- Menu Links Starts Here -->
+<div id="menu">
+<ul>
+<li><a href="index.html">首页</a></li>
+<li><a href="about.html">关于我们</a></li>
+<li><a href="ShowNeed.html">发布需求</a></li>
+<li><a href="../login.html">用户登录</a></li>
+<li id="menu_active"><a href="contact.html">联系我们</a></li>
+</ul>
+</div>
+<!-- Menu Links Ends Here -->
+
+</div>
+<!-- Header Left Part Ends Here -->
+
+<!-- Header Right Part Starts Here-->
+<div id="header_right">
+
+<!-- Content Slider Starts Here -->
+<div id="slider_shadow">
+<div id="content_slider">
+<a href="http://www.adobe.com/go/getflashplayer">
+        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+    </a>
+ </div>    
+</div>
+<!-- Content Slider Ends Here -->
+
+</div>
+<!-- Header Right Part Ends Here -->
+
+</div>
+<!-- Header Body Ends Here -->
+
+<!-- Header Bottom-->
+<div id="header_bottom">
+</div>
+<!-- Header Bottom -->
+
+</div>
+<!-- Header Ends here -->
+
+<!-- Content Body Starts here -->
+<div id="content_body">
+
+<!-- Left Content Starts Here -->
+<div id="left_content">
+<!-- Heading -->
+<p class="headings">
+联系我们
+</p>
+<!-- Heading -->
+<p>
+<img style="margin:0px 7px 7px 0px;float:left;" src="images/contact_icon.png" alt="Welcome to Design3edge" />
+<span style="font-size:14px;font-weight:bold;font-style:italic;color:#ffffff;">
+欢迎来到河南华艺信息共享平台，我们致力于服务商家和顾客，为顾客提供优质的服务，为商家提供良好的
+渠道，这是我们不变的追求
+</span>
+</p>
+<br />
+<p>
+欢迎来到河南华艺信息共享平台，我们致力于服务商家和顾客，为顾客提供优质的服务，为商家提供良好的
+渠道，这是我们不变的追求</p><br />
+<p>欢迎来到河南华艺信息共享平台，我们致力于服务商家和顾客，为顾客提供优质的服务，为商家提供良好的
+渠道，这是我们不变的追求 </p>
+
+<p>
+欢迎来到河南华艺信息共享平台，我们致力于服务商家和顾客，为顾客提供优质的服务，为商家提供良好的
+渠道，这是我们不变的追求
+</p>
+
+<br />
+
+<!-- Form Starts Here -->
+<div class="contact">
+<form id="contactForm" name="contactForm" method="post" action="http://www.cssmoban.com">
+<p>
+姓名 *
+</p>
+
+<p>
+<input type="text" name="name" id="name" value=""/>
+</p>
+
+
+
+<p style="margin-top:20px;">
+E-Mail *
+</p>
+
+<p>
+<input type="text" name="email" id="email" value=""/>
+</p>
+
+<p style="margin-top:20px;">
+你的问题
+</p>
+
+<p>
+<textarea rows="3" cols="50" name="message"></textarea>
+</p>
+
+<p style="margin-top:20px;">
+<input type="image" src="images/send_btn.png" name="submit" id="submit" />
+</p>
+
+
+</form>
+</div>
+<!-- Form Ends Here -->
+
+</div>
+<!-- Left Content Ends Here -->
+
+<!-- Right Content Starts Here -->
+<div id="right_content">
+
+<!-- Contacts Starts Here -->
+<!-- Heading -->
+<p class="headings">
+取得联系
+</p>
+<!-- Heading -->
+
+<ul class="more_links">
+<li>河南郑州总部</li>
+<li>安徽合肥分部</li>
+<li>北京分部</li>
+<li>电话: <b>+86 - 1234567890</b></li>
+<li>Email: <b>contact@cssmoban.com</b></li>
+</ul>
+
+<br />
+
+
+
+<!-- Contacts Ends Here -->
+
+<!-- Testimonial Starts Here -->
+<!-- Heading -->
+<p class="headings">
+营业执照
+</p>
+<!-- Heading -->
+
+<div id="testimonial">
+<p>
+经国家网络安全局、河南省网络安全局批准
+</p>
+<div id="testimonial_author">
+- 共享平台
+</div>
+</div>
+<!-- Testimonial Ends Here -->
+
+<!-- Follow Us Starts Here -->
+<div id="follow_us">
+
+<!-- Heading -->
+<p class="headings">
+关注我们
+</p>
+<!-- Heading -->
+
+<a href="http://twitter.com/Design3edge"><img src="images/twitter_icon.png" alt="Design3edge" /></a> <a href="http://facebook.com/Design3edge"><img src="images/facebook_icon.png" alt="Design3edge" /></a>
+ <a href="http://twitter.com/Design3edge"><img src="images/linkdin_icon.png" alt="Design3edge" /></a>
+</div>
+<!-- Follow Us Ends Here -->
+
+</div>
+<!-- Right Content Ends Here -->
+
+<!-- Clear -->
+<div class="clear">
+</div>
+<!-- Clear -->
+
+</div>
+<!-- Content Body Ends Here -->
+
+<!-- Footer Starts Here -->
+
+<!-- Top -->
+<div id="footer_top_bg">
+</div>
+
+<!-- Content -->
+<div id="footer_content">
+<div class="left">
+<a href="index.html">首页</a> <span>|</span> <a href="about.html">关于我们</a> <span>|</span> <a href="ShowNeed.html">发布需求</a> <span>|</span>
+<a href="../login.html">用户登录</a> <span>|</span> <a href="contact.html">联系我们</a>
+</div>
+<div  class="right">
+&copy; Copyright 2017. <span style="color:#ffffff;">河南华艺信息共享平台
+</div>
+
+<!-- Clear -->
+<div class="clear">
+</div>
+<!-- Clear -->
+
+
+</div>
+<!-- Content -->
+
+<!-- Bottom -->
+<div id="footer_bottom_bg">
+</div>
+
+
+<!-- Footer Ends Here -->
+
+</div>
+<!-- Main Body Ends Here -->
+
+ </body>
+</html>

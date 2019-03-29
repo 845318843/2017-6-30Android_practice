@@ -1,0 +1,14 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Debug\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Debug\BLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Debug\DLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Debug\DLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\obj\Debug\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\obj\Debug\BLL.pdb
+D:\software\QiS2017-5-16\QiS\BLL\bin\Debug\BLL.dll
+D:\software\QiS2017-5-16\QiS\BLL\bin\Debug\BLL.pdb
+D:\software\QiS2017-5-16\QiS\BLL\bin\Debug\DLL.dll
+D:\software\QiS2017-5-16\QiS\BLL\bin\Debug\DLL.pdb
+D:\software\QiS2017-5-16\QiS\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\software\QiS2017-5-16\QiS\BLL\obj\Debug\BLL.dll
+D:\software\QiS2017-5-16\QiS\BLL\obj\Debug\BLL.pdb

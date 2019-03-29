@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>发布信息</title>
+    <link href="../CSS1/ShowNeed.css" rel="stylesheet" />
+    <script src="../JS/ShowNeed.js"></script>
+    <script src="../JS/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+    <script>
+        $(function () {
+            $("#tijiao").click(function () {
+                alert("弹出");
+                var rand = $("#rand option:selected");
+                rands = rand.val();//种类
+                //alert(rands);
+                var descirb = $("#describ").val();//描述
+                //alert(descirb);
+                var name;//姓名
+                var firstname = $("#name").val();//姓
+                //alert(firstname);
+                var secondname;//名
+                var radio = document.getElementsByName("gender");
+                for (var i = 0; i < radio.length; i++) {
+                    if (radio[i].checked == true) {
+                        secondname = radio[i].value;
+                        //alert(gender);
+                    }
+                }
+                //alert(secondname);
+                name = firstname + secondname;
+                var pros = $("#province option:selected");
+                var province = pros.val();//省份
+                //alert(province);
+                var citys = $("#city option:selected");
+                var city = citys.val();//城市
+                //alert(city);
+                var countys = $("#county option:selected");
+                var county = countys.val();//县
+                //alert(county);
+                var address;//地址
+                address = province + "_" + city + "_" + county;
+                var d = new Date();
+                var time = d.getFullYear().toString() + "/" + d.getMonth().toString() + "/" + d.getDate().toString() + "/" + d.getHours().toString() + "/" + d.getMinutes().toString() + "/" + d.getSeconds().toString();//发布时间
+                var email = $("#email").val();//email
+                //alert(email);
+                var tel = $("#tel").val();//电话
+                //alert(tel);
+                if (rands == "" || descirb == "" || firstname == "" || secondname == "" || province == "" || city == "" || county == "" || address == "" || email == "" || tel == "") {
+                    alert("有必填项为空，请补充完整");
+                }
+                else {
+                    alert("in");
+                    $.ajax({
+                        type: 'post',
+                        url: "../ShowNeedWeb.asmx/share",
+                        contentType: "application/json;charset-utf8",
+                        data: '{"region":"' + address + '","industry":"' + rands + '","time":"' + time + '","content":"' + descirb + '","name":"' + name + '","tel":"' + tel + '","email":"' + email + '"}',
+                        //data: '{}',
+                        dataType: "json",
+                        async: false,
+                        success: function (result) {
+                            if (result.d == "true") {
+                                alert("发布成功");
+                            }
+                            else {
+                                alert("发布失败");
+                            }
+                        },
+                        errror: function (err) {
+                            alert("系统错误");
+                        }
+                    })
+                }
+
+            })
+        })
+
+
+    </script>
+    <div id="tail" style="background-image: url(../Image/backgif1.gif); background-size: cover;">
+
+        <div id="lead" style="position: absolute; margin-left: 300px; margin-top: 20px; width: 800px; height: 40px;">
+            <form>
+                <table style="height: 30px; width: 800px; text-align: center; font-size: larger; border-spacing: 0px; background-color: #000;">
+                    <tr>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="index.html">首页</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="about.html">关于我们</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff; background-color: #f00;"><a style="text-decoration: none; color: #fff;" href="#">发布需求</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="contact.html">联系我们</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="../login.html">登录</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="Register.html">注册</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="formtable" style="width: 730px; height: 770px; position: absolute; margin-top: 100px; margin-left: 350px; border-radius: 25px; border: thick solid #0af30f; background-color: #e2d9d9; filter: alpha(Opacity=80); -moz-opacity: 0.7; opacity: 0.7;">
+            <form>
+                <table style="width: 730px;">
+                    <tr>
+                        <th colspan="2">发布我的需求</th>
+                    </tr>
+                    <tr>
+                        <td style="color: #000; width: 260px;">需求类型:<p style="color: #695e5e;">（国民经济五大类）</p>
+                        </td>
+                        <td>
+                            <select style="font-size: 18px; color: #000;" id="rand">
+                                <option>农、林、牧、渔业</option>
+                                <option>工业</option>
+                                <option>交通运输业</option>
+                                <option>建筑业</option>
+                                <option>商业服务业</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td style="color: #000;">描述一下需求吧：
+                            例如：<p style="color: #695e5e;">我需要100台联想笔记本电脑</p>
+                        </td>
+                        <td>
+                            <textarea rows="8" cols="30" style="resize: none; font-size: 22px;" id="describ"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td style="color: #000;">留下个人信息吧<p style="color: #695e5e;">我们会联系你的~</p>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr style="height: 50px;">
+                        <td style="color: #000;">贵姓:</td>
+                        <td>
+                            <input type="text" style="font-size: 18px;" id="name" /></td>
+                    </tr>
+                    <tr style="height: 50px;">
+                        <td style="color: #000;">称谓:</td>
+                        <td>
+                            <input type="radio" name="gender" style="font-size: 18px;" value="先生">先生</input><input type="radio" name="gender" style="font-size: 18px;" value="女士">女士</input></td>
+                    </tr>
+                    <tr>
+                        <td style="color: #000;">您所在的城市：
+                          <p style="color: #695e5e;">我们会根据您所在的城市，</p>
+                            <p style="color: #695e5e;">为你提供最快，最优质的资源</p>
+                        </td>
+                        <td style="vertical-align: top;">
+                            <select id="province" style="font-size: 18px; color: #000;">
+                                <option>河南省</option>
+                                <option>河北省</option>
+                                <option>山东省</option>
+                            </select>
+                            <select id="city" style="font-size: 18px; color: #000;">
+                                <option>南阳市</option>
+                                <option>周口市</option>
+                                <option>郑州市</option>
+                                <option>济南市</option>
+                            </select>
+                            <select id="county" style="font-size: 18px; color: #000;">
+                                <option>唐河县</option>
+                                <option>西峡县</option>
+                                <option>鹿邑县</option>
+                                <option>郸城县</option>
+                            </select></td>
+                    </tr>
+                    <tr style="height: 45px;">
+                        <td style="color: #000;">留个电话:</td>
+                        <td>
+                            <input type="text" style="font-size: 18px;" id="tel" /></td>
+                    </tr>
+                    <tr style="height: 45px;">
+                        <td style="color: #000;">E-mail:
+                            <p style="color: #695e5e;">（必要时我们会给您发送邮件哦~）</p>
+                        </td>
+                        <td style="vertical-align: top;">
+                            <input type="email" style="font-size: 18px;" id="email" /></td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: none;"></td>
+                        <td style="border-bottom: none;">
+                            <input type="reset" style="font-size: 19px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="提交" style="font-size: 19px;" id="tijiao" /></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="foot" style="background-image: url(../Image/bottom..jpg); background-size: cover;">
+        <div id="footlead" style="width: 600px; height: 30px; position: absolute; margin-left: 300px; margin-top: 310px;">
+            <form>
+                <table style="height: 15px; width: 600px; text-align: center; font-size: smaller; border-spacing: 0px; color: #fff;">
+                    <tr>
+                        <td style="height: 15px; width: 120px;"><a style="text-decoration: none; color: #fff;" href="index.html">首页</a></td>
+                        <td style="height: 15px; width: 120px;"><a style="text-decoration: none; color: #fff;" href="about.html">关于我们</a></td>
+                        <td style="height: 15px; width: 120px; background-color: #f00;"><a style="text-decoration: none; color: #fff;" href="#">发布需求</a></td>
+                        <td style="height: 15px; width: 120px;"><a style="text-decoration: none; color: #fff;" href="contact.html">联系我们</a></td>
+                        <td style="height: 15px; width: 120px;"><a style="text-decoration: none; color: #fff;" href="../login.html">登录</a></td>
+                        <td style="height: 15px; width: 120px;"><a style="text-decoration: none; color: #fff;" href="Register.html">注册</a></td>
+                    </tr>
+                </table>
+                </form>
+        </div>
+        <div id="footer" style="width: 300px; height: 20px; position: absolute; margin-left: 400px; margin-top: 360px; line-height: 20px;text-align: center; font-size: 8px; color: #fff;">
+            @copy 2017  河南华艺信息共享平台
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 未登陆状态下的 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 头部导航 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/bg_actionbar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_img"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_action_home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mine"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/ll_img"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:text="我的详细"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 头部右边 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView_Mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/actionbar_message_enable" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 未登陆状态下 -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_LoginHine"
+                android:layout_width="fill_parent"
+                android:layout_height="98dp"
+                android:background="@drawable/bg_login"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview_loginhint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您还没有登陆" />
+
+                <Button
+                    android:id="@+id/btn_login_person"
+                    android:layout_width="100dip"
+                    android:layout_height="50dip"
+                    android:background="@drawable/islogin"
+                    android:onClick="onLogin"
+                    android:text="登录" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dip"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_CommonMessage"
+                    android:layout_width="0dip"
+                    android:layout_height="70dip"
+                    android:layout_weight="1"
+                    android:background="@color/abs__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="56dp"
+                        android:layout_height="54dp"
+                        android:layout_marginLeft="15dip"
+                        android:background="@drawable/ic_coupon_disabled" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dip"
+                        android:text="常规消息" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="1dip"
+                    android:layout_height="70dip"
+                    android:layout_weight="0"
+                    android:background="@color/bg_gray"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout_SpecialMessage"
+                    android:layout_width="0dip"
+                    android:layout_height="70dip"
+                    android:layout_weight="1"
+                    android:background="@color/abs__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="57dp"
+                        android:layout_height="52dp"
+                        android:layout_marginLeft="15dip"
+                        android:background="@drawable/ic_favorite" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical" >
+
+                        <!-- 收藏夹里物品的数量 -->
+
+                        <TextView
+                            android:id="@+id/tv_collect_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dip"
+                            android:text="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:paddingRight="3dip"
+                            android:text="特别推送" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_MyMoney"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/tv_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="我的余额" />
+
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_Money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="45dip"
+                        android:text="99" />
+
+                    <TextView
+                        android:id="@+id/tv_other_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dip"
+                        android:text="元" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_MyAddress"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="我的地址" />
+
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_Address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="45dip"
+                        android:text="这个是我的地址" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_MyTel"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="联系方式" />
+
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_Tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="45dip"
+                        android:text="这个是我的联系方式" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_MyName"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="真实姓名" />
+
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_Tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="45dip"
+                        android:text="这个是我的真实姓名" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_MyAccount"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="账号名字" />
+
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_Tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="45dip"
+                        android:text="这个是我的账号名" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_MyMS_Count"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_other_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:text="账号名字" />
+
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_Tel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="45dip"
+                        android:text="这个是我的账号名" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/abs__bright_foreground_disabled_holo_light"
+                android:orientation="horizontal" />
+            <!-- 其他 -->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 底部tab部分 -->
+
+</RelativeLayout>

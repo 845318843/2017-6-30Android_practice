@@ -1,0 +1,14 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Release\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Release\BLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Release\DLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\bin\Release\DLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\obj\Release\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\BLL\obj\Release\BLL.pdb
+D:\software\QiS2017-5-16\QiS\BLL\bin\Release\BLL.dll
+D:\software\QiS2017-5-16\QiS\BLL\bin\Release\BLL.pdb
+D:\software\QiS2017-5-16\QiS\BLL\bin\Release\DLL.dll
+D:\software\QiS2017-5-16\QiS\BLL\bin\Release\DLL.pdb
+D:\software\QiS2017-5-16\QiS\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\software\QiS2017-5-16\QiS\BLL\obj\Release\BLL.dll
+D:\software\QiS2017-5-16\QiS\BLL\obj\Release\BLL.pdb

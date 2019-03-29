@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>管理员登录</title>
+    <link href="../CSS1/ManagerLogin.css" rel="stylesheet" />
+    <script src="../JS1/ManagerLogin.js"></script>
+    <script src="../JS1/jquery-1.9.1.min.js"></script>
+</head>
+<body style="background-image: url(../Image/loginback.jpg); background-size: cover;">
+    <script>
+        $(function () {
+            $("#login").click(function () {
+                //alert("1234444");
+                var username = $("#username").val();
+                var pwd = $("#pwd").val();
+                if (username == "") {
+                    alert("请输入账号");
+                }
+                else if (pwd == "") {
+                    alert("请输入密码");
+                }
+                else {
+                    $.ajax({
+                        type: 'post',
+                        url: "../ManagerLoginWeb.asmx/Login",
+                        contentType: "application/json;charset-utf8",
+                        data: '{"username":"' + username + '","pwd":"' + pwd + '"}',
+                        dataType: "json",
+                        async: false,
+                        success: function (result) {
+                            aa = result.d;
+                            if (aa == "true") {
+                                alert("登录成功");
+                                window.location.href = '../Manager/index.html';
+                            }
+                            else {
+                                alert("账号或密码错误");
+                            }
+                        },
+                        error: function (err) {
+                            alert("系统错误");
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+    <div id="head">
+        <div id="return">
+            <form>
+                <table style="height: 30px; width: 800px; text-align: center; font-size: larger; border-spacing: 0px; background-color: #000;">
+                    <tr>
+                        <td style="height: 30px; width: 160px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="index.html">首页</a></td>
+                        <td style="height: 30px; width: 160px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="about.html">关于我们</a></td>
+                        <td style="height: 30px; width: 160px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="ShowNeed.html">发布需求</a></td>
+                        <td style="height: 30px; width: 160px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="contact.html">联系我们</a></td>
+                        <td style="height: 30px; width: 160px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="../login.html">普通登录</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="content">
+        <div id="imageframe" style="background-image: url(../Image/login.gif); background-size: cover;">
+        </div>
+        <div id="fixframe">
+            <div id="namediv">
+                <span class="nametext"></span>
+                <input class="ipt" type="text" placeholder="用户名" id="username" />
+            </div>
+            <div id="passworddiv">
+                <span class="passwordtext"></span>
+                <input class="ipt" type="password" placeholder="密码" id="pwd" />
+            </div>
+            <div id="loginbutton">
+                <input type="button" value="登录" style="font-size: 22px; color: #1924f8;" id="login" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.csprojResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.Form1.resources
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.Properties.Resources.resources
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.csproj.GenerateResource.Cache
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\测试后台方法的临时窗体.exe
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\测试后台方法的临时窗体.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\BLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\DLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\BLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\DLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.exe
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\测试后台方法的临时窗体\bin\Debug\测试后台方法的临时窗体.exe.config
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\测试后台方法的临时窗体.exe.config
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.exe
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.pdb
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.csprojResolveAssemblyReference.cache
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.Form1.resources
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.Properties.Resources.resources
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\obj\Debug\测试后台方法的临时窗体.csproj.GenerateResource.Cache
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\测试后台方法的临时窗体.exe
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\测试后台方法的临时窗体.pdb
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\BLL.dll
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\DLL.dll
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\BLL.pdb
+D:\software\QiS2017-5-16\QiS\测试后台方法的临时窗体\bin\Debug\DLL.pdb

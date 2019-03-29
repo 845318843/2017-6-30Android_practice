@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout_inform_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="#c0c0c0"
+  
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/TextView_inform_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="这个是标题"
+                android:textColor="#2F4F4F"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_second"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_first"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/TextView_inform_Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="这个是正文"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="3dip"
+                 android:layout_below="@id/ll_second"
+                android:background="#000000"
+                android:orientation="horizontal" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNew.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNew.pdb
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\Antlr3.Runtime.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.AspNet.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.Core.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OAuth.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OpenId.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EntityFramework.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\Microsoft.Web.Infrastructure.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\System.Web.Optimization.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\System.Web.Providers.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\WebGrease.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EntityFramework.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.Core.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OAuth.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OpenId.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\DotNetOpenAuth.AspNet.xml
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\zh-Hans\EntityFramework.resources.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\zh-Hans\System.Web.Optimization.resources.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\zh-Hans\System.Web.Providers.resources.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\obj\Debug\EnterpriseNew.csprojResolveAssemblyReference.cache
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\obj\Debug\EnterpriseNew.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\obj\Debug\EnterpriseNew.pdb
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNewBLL.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNewModel.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNewDAL.dll
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNewBLL.pdb
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNewModel.pdb
+c:\users\zuoxianwei\documents\visual studio 2012\Projects\EnterpriseNew\EnterpriseNew\bin\EnterpriseNewDAL.pdb
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\EnterpriseNew.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\EnterpriseNew.pdb
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\Microsoft.Web.Infrastructure.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\Microsoft.Web.Infrastructure.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\EntityFramework.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DotNetOpenAuth.Core.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DotNetOpenAuth.OAuth.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DotNetOpenAuth.OpenId.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DotNetOpenAuth.AspNet.xml
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\zh-Hans\EntityFramework.resources.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\zh-Hans\System.Web.Optimization.resources.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\zh-Hans\System.Web.Providers.resources.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\zh-Hans\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\obj\Debug\EnterpriseNew.csprojResolveAssemblyReference.cache
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\obj\Debug\EnterpriseNew.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\obj\Debug\EnterpriseNew.pdb
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\BLL.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DLL.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\QiS.dll
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\BLL.pdb
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\DLL.pdb
+D:\用户目录\我的文档\Visual Studio 2012\Projects\QiS\EnterpriseNew\bin\QiS.pdb
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\EnterpriseNew.dll
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\EnterpriseNew.pdb
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\BLL.dll
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\DLL.dll
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\Microsoft.Web.Infrastructure.dll
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\QiS.dll
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\BLL.pdb
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\DLL.pdb
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\QiS.pdb
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\bin\Microsoft.Web.Infrastructure.xml
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\obj\Debug\EnterpriseNew.csprojResolveAssemblyReference.cache
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\obj\Debug\EnterpriseNew.dll
+D:\software\QiS2017-5-16\QiS\EnterpriseNew\obj\Debug\EnterpriseNew.pdb

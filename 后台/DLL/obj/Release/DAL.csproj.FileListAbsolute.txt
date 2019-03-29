@@ -1,0 +1,10 @@
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\DLL\bin\Release\DLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\DLL\bin\Release\DLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\DLL\obj\Release\DLL.dll
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\DLL\obj\Release\DLL.pdb
+d:\用户目录\我的文档\visual studio 2012\Projects\QiS\DLL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\software\QiS2017-5-16\QiS\DLL\bin\Release\DLL.dll
+D:\software\QiS2017-5-16\QiS\DLL\bin\Release\DLL.pdb
+D:\software\QiS2017-5-16\QiS\DLL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\software\QiS2017-5-16\QiS\DLL\obj\Release\DLL.dll
+D:\software\QiS2017-5-16\QiS\DLL\obj\Release\DLL.pdb

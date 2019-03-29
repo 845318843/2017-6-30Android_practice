@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>用户注册</title>
+    <link href="../CSS1/Register.css" rel="stylesheet" />
+    <script src="../JS1/jquery-1.9.1.min.js"></script>
+    <script src="../JS1/Register.js"></script>
+</head>
+<body style="background-image: url(../Image/register.jpg); background-size: cover; background-color: #206af1;">
+    <div id="head">
+        <div id="return">
+            <form>
+                <table style="height: 30px; width: 800px; text-align: center; border-spacing: 0px; background-color: #000;">
+                    <tr>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="index.html">首页</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="about.html">关于我们</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="ShowNeed.html">发布需求</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="contact.html">联系我们</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff;"><a style="text-decoration: none; color: #fff;" href="../login.html">登录</a></td>
+                        <td style="height: 30px; width: 133px; border: 2px solid #fff; background-color: #f00;"><a style="text-decoration: none; color: #fff;" href="#">注册</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div id="content">
+        <div id="tableframe">
+            <form>
+                <table>
+                    <tr style="text-align: center;">
+                        <th colspan="2">用户注册</th>
+                        <th></th>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000; width: 80px;">账号:</td>
+                        <td style="width: 720px;">
+                            <input type="text" style="font-size: 18px;" id="account" />&nbsp;<label style="color: #808080;">(登录时使用)</label></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">密码:</td>
+                        <td>
+                            <input type="text" style="font-size: 18px;" id="pwd" /><label style="color: #808080;">(密码为8-18位字符+字母+数字组合)</label></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">确认密码:</td>
+                        <td>
+                            <input type="text" style="font-size: 18px;" id="repwd" /></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">姓名:</td>
+                        <td>
+                            <input type="text" style="font-size: 18px;" id="name" /><label style="color: #808080;">(与您进行沟通时称呼)</label></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">性别:</td>
+                        <td>
+                            <label>
+                                <input type="radio" name="gender" value="男" style="font-size: 18px;" />男</label>&nbsp;&nbsp;&nbsp;<label><input type="radio" name="gender" value="女" style="font-size: 18px;" />女</label></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">地址:</td>
+                        <td>
+                            <select id="province" style="font-size: 18px;">
+                                <option>河南省</option>
+                                <option>河北省</option>
+                                <option>山东省</option>
+                                <option>北京</option>
+                            </select>
+                            <select id="city" style="font-size: 18px;">
+                                <option>南阳市</option>
+                                <option>周口市</option>
+                                <option>邯郸市</option>
+                                <option>廊坊市</option>
+                                <option>潍坊市</option>
+                                <option>济南市</option>
+                                <option>朝阳区</option>
+                            </select>
+                            <select id="county" style="font-size: 18px;">
+                                <option>唐河县</option>
+                                <option>西峡县</option>
+                                <option>郸城县</option>
+                                <option>鹿邑县</option>
+                                <option>淮阳县</option>
+                                <option>沈丘县</option>
+                                <option>商水县</option>
+                                <option>淅川县</option>
+                            </select>
+                            <label style="color: #808080;">(根据地区，我们会为您提供最快，最优质的资源)</label>
+                        </td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">联系电话:</td>
+                        <td>
+                            <input type="text" style="font-size: 18px;" id="tel" /></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td style="color: #000;">E-mail:</td>
+                        <td>
+                            <input type="email" style="font-size: 18px;" id="email" /><label style="color: #808080;">(必要时我们将给您发送电子邮件)</label></td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td></td>
+                        <td>
+                            <input type="reset" style="font-size: 18px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="注册" style="font-size: 18px;" id="register" /></td>
+                    </tr>
+                    <tr style="height: 80px; text-align: center;">
+                        <td colspan="2" style="border-bottom: none;">
+                            <input type="button" value="马上登录" style="font-size: 26px; color: #1a09fa; font-weight: 600;" id="login" />
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="foot" style="width: 400px;height: 20px;position: absolute;margin-top: 670px;margin-left: 450px; line-height: 20px;text-align: center; color: #fff;">
+            @copy 2017  河南华艺信息共享平台
+            </div>
+    </div>
+</body>
+</html>

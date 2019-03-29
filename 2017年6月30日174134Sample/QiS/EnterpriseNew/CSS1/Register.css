@@ -1,0 +1,41 @@
+﻿body {
+    width: 1330px;
+    height: 830px;
+    position: absolute;
+}
+#head {
+width: 1330px;
+height: 50px;
+position: absolute;
+}
+#return {
+width: 800px;
+height: 40px;
+position: absolute;
+margin-top: 30px;
+margin-left: 270px;
+}
+#return tr td:hover {
+background-color: #f00;
+}
+#content {
+width: 1330px;
+height: 700px;
+position: absolute;
+margin-top: 130px;
+}
+#tableframe {
+width: 800px;
+height: 500px;
+border: 2px solid;
+position: absolute;
+border-radius: 25px;
+margin-left: 265px;
+margin-top: 50px;
+border-color: #f823e1;
+background-color: #d8cbcb;
+}
+table tr td {
+border-bottom: 1px dashed #5b5252;
+}
+

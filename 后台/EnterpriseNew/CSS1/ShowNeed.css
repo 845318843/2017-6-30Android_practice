@@ -1,0 +1,23 @@
+﻿body {
+    height: 1300px;
+    width: 1330px;
+    position: absolute;
+}
+#tail {
+height: 900px;
+width: 1330px;
+position: absolute;
+margin-top: 10px;
+}
+#foot {
+height: 390px;
+width: 1330px;
+position: absolute;
+margin-top: 901px;
+}
+#lead tr td:hover {
+background-color: #f00;
+}
+#footlead tr td:hover {
+background-color: #f00;
+}
